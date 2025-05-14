@@ -52,3 +52,29 @@ ethical_price_tracker/
 └── README.md
 
 
+---
+
+## 🧪 Sample Use Case
+You can track how a book's price changes over time. Each scraping session adds new rows with timestamps, and the dashboard visualizes these changes so you can monitor trends or detect drops.
+
+---
+
+## 📦 Tech Stack
+- Python 3
+
+- Selenium
+
+- BeautifulSoup4
+
+- Pandas
+
+- Streamlit
+
+- SQLite
+
+---
+
+## ⚖️ Ethical Note
+This project uses BooksToScrape.com, which is explicitly designed for scraping practice.
+Always respect robots.txt and website terms of service when scraping real-world websites.
+
