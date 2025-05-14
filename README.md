@@ -1,8 +1,21 @@
 # Ethical Price Tracker
 
-Track prices from a public website (BooksToScrape), store historical prices, and build a dashboard to monitor trends and detect drops — all done ethically and programmatically.
+This project tracks book prices over time from [BooksToScrape](http://books.toscrape.com/) — a public sandbox site built for scraping practice.  
+It ethically collects product data using Python, Selenium, and BeautifulSoup, stores it in SQLite, and visualizes trends with Streamlit.
 
-✅ Problem Statement
+---
+
+## ✅ Features
+
+- 🔍 Scrapes book prices, availability, and product links
+- 🧠 Simulates real-world price changes for testing trends
+- 💾 Stores timestamped data in CSV and SQLite
+- 📊 Visualizes price history per book using Streamlit
+- ✅ Clean, ethical, and modular code structure
+
+---
+
+## ✅ Problem Statement
 
 How can we ethically track product prices over time to analyze pricing trends and notify users of drops — while respecting website usage policies and ensuring clean, scalable data handling?
 
@@ -25,18 +38,17 @@ https://drive.google.com/file/d/1HYsJuHhGVwQ2HKXE8Ucb4XSkH5V_fgg2/view?usp=shari
 ethical_price_tracker/
 │
 ├── data/
-│   ├── raw/                        # Raw scraped CSVs
-│   └── book_prices.db              # SQLite database
+│ ├── raw/ # Contains book_prices.csv
+│ └── book_prices.db # SQLite database
 │
 ├── scripts/
-│   ├── __init__.py
-│   ├── scrape.py                   # Ethical price scraper (Selenium + BeautifulSoup)
-│   ├── store.py                    # CSV → SQLite storage logic
-│   └── alert.py                    # (Optional) Price drop alert logic
+│ ├── scrape.py # Scrapes prices using Selenium + BeautifulSoup
+│ ├── store.py # Saves CSV data into SQLite
 │
 ├── dashboard/
-│   └── app.py                      # Streamlit dashboard UI
+│ └── app.py # Streamlit dashboard to view price trends
 │
 ├── requirements.txt
-├── README.md
-└── .gitignore
+└── README.md
+
+
