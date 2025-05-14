@@ -12,16 +12,18 @@ How can we ethically track product prices over time to analyze pricing trends an
 ethical_price_tracker/
 │
 ├── data/
-│   └── raw/                        # Stores scraped price history CSV
+│   ├── raw/                        # Raw scraped CSVs
+│   └── book_prices.db              # SQLite database
 │
 ├── scripts/
-│   ├── scrape_prices.py           # Scraper using Selenium + BeautifulSoup
-│   ├── store_prices.py            # Store prices into SQLite
-│   └── price_alerts.py            # (Optional) Alert on price drop
+│   ├── __init__.py
+│   ├── scrape.py                   # Ethical price scraper (Selenium + BeautifulSoup)
+│   ├── store.py                    # CSV → SQLite storage logic
+│   └── alert.py                    # (Optional) Price drop alert logic
 │
-├── streamlit_app.py               # Streamlit dashboard to visualize prices
+├── dashboard/
+│   └── app.py                      # Streamlit dashboard UI
+│
 ├── requirements.txt
-├── .gitignore
-└── README.md
-
-
+├── README.md
+└── .gitignore
