@@ -6,6 +6,19 @@ Track prices from a public website (BooksToScrape), store historical prices, and
 
 How can we ethically track product prices over time to analyze pricing trends and notify users of drops — while respecting website usage policies and ensuring clean, scalable data handling?
 
+
+## 📊 Live Demo (GIF)
+
+![Dashboard Demo](assets/demo.gif)
+
+---
+
+## Demo Video
+
+https://drive.google.com/file/d/1HYsJuHhGVwQ2HKXE8Ucb4XSkH5V_fgg2/view?usp=sharing
+
+---
+
 ## ✅ Step-by-Step Project Structure
 
 ## 📁 Folder Layout
