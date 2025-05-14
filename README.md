@@ -2,6 +2,9 @@
 
 Track prices from a public website (BooksToScrape), store historical prices, and build a dashboard to monitor trends and detect drops — all done ethically and programmatically.
 
+✅ Problem Statement
+How can we ethically track product prices over time to analyze pricing trends and notify users of drops — while respecting website usage policies and ensuring clean, scalable data handling?
+
 ## ✅ Step-by-Step Project Structure
 
 ## 📁 Folder Layout
